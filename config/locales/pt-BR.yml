@@ -1,0 +1,49 @@
+pt-BR:
+  activerecord:
+    models:
+      coin:
+        one: Moeda
+        other: Moedas
+      mining_type:
+        one: Tipo de mineração
+        other: Tipos de mineração
+    attributes:
+      coin:
+        id: Código
+        description: Descrição
+        acronym: Sigla
+        url_image: URL da imagem
+        mining_type: Tipo de mineração
+        mining_type_id: Tipo de mineração
+        updated_at: Atualizado em
+        created_at: Criado em
+      mining_type:
+        id: Código
+        description: Descrição
+        acronym: Sigla
+        updated_at: Atualizado em
+        created_at: Criado em
+
+  hello: "Olá mundo"
+  current_locale: "Português (Brasil)"
+  welcome: "Seja bem-vindo!"
+  messages:
+    confirm: "Você tem certeza?"
+    description: "Este é o Crypto Wallet, uma app para você cadastrar e acompanhar as suas ciptomoedas."
+    options: "Para começar selecione umas das opções abaixo:"
+    select: "Selecione"
+    coin:
+      edit: "Editando Moeda"
+      new: "Nova Moeda"
+      show: "Mostrando Moeda"
+    mining_type:
+      new: "Novo Tipo de mineração"
+      edit: "Editando Tipo de mineração"
+      show: "Mostrando Tipo de Mineração"
+  links:
+    back: "Voltar"
+    destroy: "Apagar"
+    edit: "Editar"
+    home: "Págima Inicial"
+    new: "Novo(a)"
+    show: "Mostrar"
